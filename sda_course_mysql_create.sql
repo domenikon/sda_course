@@ -9,7 +9,7 @@ CREATE TABLE `students` (
 
 
 
-CREATE TABLE `studet_group` (
+CREATE TABLE `student_group` (
 	`id` INT NOT NULL AUTO_INCREMENT,
 	`student_id` INT NOT NULL,
 	`group_id` INT NOT NULL,
