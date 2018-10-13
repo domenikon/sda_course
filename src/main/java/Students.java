@@ -5,7 +5,7 @@ import java.sql.Date;
 @Table(name = "students")
 @NamedQueries({
 		@NamedQuery(name = "get_students_by_name",
-				query = "select p from Students p where name = :name")})
+				query = "select s from Students s where name = :name")})
 public class Students {
 
 	@Id
