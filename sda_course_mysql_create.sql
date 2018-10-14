@@ -40,7 +40,7 @@ CREATE TABLE `payments` (
 
 CREATE TABLE `group` (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`scedule_id` INT NOT NULL,
+	`schedule_id` INT NOT NULL,
 	`room_id` INT NOT NULL,
 	`date_start` DATE NOT NULL,
 	`date_finish` DATE NOT NULL,
@@ -92,7 +92,7 @@ ALTER TABLE `payments` ADD CONSTRAINT `payments_fk1` FOREIGN KEY (`course_id`) R
 
 
 
-ALTER TABLE `group` ADD CONSTRAINT `group_fk0` FOREIGN KEY (`scedule_id`) REFERENCES `schedule`(`id`);
+ALTER TABLE `group` ADD CONSTRAINT `group_fk0` FOREIGN KEY (schedule_id) REFERENCES `schedule`(`id`);
 
 
 

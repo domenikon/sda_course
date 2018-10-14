@@ -11,5 +11,7 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <mapping class="Students"/>
     <mapping class="StudentGroup"/>
+     <mapping class="Payments"/>
+        <mapping class="Group"/>
     </session-factory>
 </hibernate-configuration>
