@@ -14,5 +14,8 @@
      <mapping class="Payments"/>
         <mapping class="Group"/>
         <mapping class="Course"/>
+        <mapping class="Address"/>
+        <mapping class="Room"/>
+        <mapping class="Schedule"/>
     </session-factory>
 </hibernate-configuration>
