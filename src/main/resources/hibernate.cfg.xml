@@ -13,5 +13,6 @@
     <mapping class="StudentGroup"/>
      <mapping class="Payments"/>
         <mapping class="Group"/>
+        <mapping class="Course"/>
     </session-factory>
 </hibernate-configuration>
